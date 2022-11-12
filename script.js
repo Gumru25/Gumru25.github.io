@@ -20,7 +20,7 @@ document.getElementById('forecast__day-friday').innerHTML=daySixth;
 document.getElementById('forecast__day-saturday').innerHTML=daySeventh;
 
 async function getWeather(){
-    const API = `http://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=baku&days=7`;
+    const API = `https://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=baku&days=7`;
 
     const res = await fetch(API);
     const data = await res.json();
