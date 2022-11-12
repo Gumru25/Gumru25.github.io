@@ -1,0 +1,29 @@
+.today{
+    width: 32%;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0px 0px 15px 420px;
+}
+
+.today__city{
+    font-weight:bold;
+    font-size: 37px;
+    color: #ff6d6d;
+}
+
+.today__time{
+    font-size: 22px;
+    margin: -10px;
+}
+
+#today__day{
+    font-size: 22px;
+    margin: -10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.today__date{
+    font-size: 15px;
+    margin: 8px;
+}

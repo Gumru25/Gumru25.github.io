@@ -1,0 +1,10 @@
+.info{
+    padding: 19px;
+    border-style: dotted;
+    border-radius: 50px 15px;
+    border-color: #ff6d6d;
+    width: 21%;
+    margin-left: 960px;
+    margin-top: 20px;
+    font-weight: bold;    
+}
